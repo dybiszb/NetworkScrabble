@@ -7,12 +7,6 @@
 - Unix Processes Management (multiprocessing, signals)
 - TCP sockets
 
-## Screenshots
-
-Client Example           |  Server Example
-:-------------------------:|:-------------------------:
-![alt tag](https://raw.githubusercontent.com/dybiszb/NetworkScrabble/master/img/client_scr.png)  |  ![alt tag](https://raw.githubusercontent.com/dybiszb/NetworkScrabble/master/img/server_scr.png)
-
 ## Task Description
 Very simplified "scrabble" game. Server joins players in pairs to play one game ( matched automatically as new connections are accepted). After the game is finished clients are informed about result and are given the choice to play once more or exit. At the same time server runs multiple games e.g. if 9 peers connects it starts 4 games and one peer must wait for another connection.
 
@@ -32,6 +26,14 @@ Game Rules
 - Points gained are equal to the length of the longest ascending or descending, vertical or horizontal sequence of tiles crossing the newly placed tile.
 - After each move, the player gets new random tile.
 - Game ends when there are no more tiles left, gained points show the winner
+
+## Screenshots
+
+Client Example           |  Server Example
+:-------------------------:|:-------------------------:
+![alt tag](https://raw.githubusercontent.com/dybiszb/NetworkScrabble/master/img/client_scr.png)  |  ![alt tag](https://raw.githubusercontent.com/dybiszb/NetworkScrabble/master/img/server_scr.png)
+
+
 
 ## Compiling<a name="compile"></a>
 Note: For obvious reasons only UNIX compilation is allowed.
